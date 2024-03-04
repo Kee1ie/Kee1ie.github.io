@@ -1,6 +1,7 @@
 nav ul {
-    list-style: none;
-    position: relative;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 nav ul li {
     float: left;
@@ -9,6 +10,7 @@ nav ul li {
     padding: 15px 15px 15px 20px;
     margin: 0px 20px 25px;
     text-align: center;
+    position: relative;
 }
 nav ul ul {
     display: none;
@@ -17,6 +19,7 @@ nav ul ul {
 }
 nav ul ul li {
     float: none;
+
 }
 nav ul li:hover > ul {
     display: block;
