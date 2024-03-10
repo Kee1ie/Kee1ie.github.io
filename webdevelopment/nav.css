@@ -7,7 +7,6 @@ nav ul {
     justify-content: space-between;
     align-items: center;
     font-family: Georgia, serif;
-    background-color: rgba(181, 176, 176, 0.8);
 }
 nav ul li {
     float: left;
@@ -18,12 +17,18 @@ nav ul li {
     text-align: center;
     position: relative;
 }
+nav ul li a {
+    background-color: rgba(181, 176, 176, 1);
+}
 nav ul li ul {
-    background-color: rgba(181, 176, 176, 0.8);
     display: none;
     position: absolute;
-    left: 0;
-    top: 43px;
+    margin-left: 0;
+    padding-left: 0;
+    top: 60px;
+}
+nav ul li ul li a {
+    background-color: rgba(181, 176, 176, 1);
 }
 nav ul li:hover > ul {
     display: block;
