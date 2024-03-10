@@ -7,10 +7,17 @@ h4 {
     color:#910e0e
 }
 p {
+    width:75%;
+    padding: 20px;
+    margin: 0;
+    text-align: center;
     color:#7F1D08;
     font-family: Times, serif;
 }
-p::first-line {
+p + p {
+    text-indent: 30px;
+}
+h4 + p {
     text-indent: 30px;
 }
 p::first-letter {

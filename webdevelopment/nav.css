@@ -7,8 +7,10 @@ nav ul {
     justify-content: space-between;
     align-items: center;
     font-family: Georgia, serif;
+    background-color: rgba(181, 176, 176, 0.8);
 }
 nav ul li {
+    float: left;
     border: 3px solid darkred;
     width: 125px;
     padding: 15px 15px 15px 20px;
@@ -17,14 +19,14 @@ nav ul li {
     position: relative;
 }
 nav ul li ul {
+    background-color: rgba(181, 176, 176, 0.8);
     display: none;
     position: absolute;
     left: 0;
-    top: 100%;
+    top: 43px;
 }
 nav ul li:hover > ul {
-    display: flex;
-    flex-direction: column;
+    display: block;
 }
 nav > ul::after {
     content: "";
