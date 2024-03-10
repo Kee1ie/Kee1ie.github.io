@@ -1,3 +1,23 @@
 h1 {
+    font-family: Georgia, serif;
     color:#910e0e;
+}
+h4 {
+    font-family: Georgia, serif;
+    color:#910e0e
+}
+p {
+    color:#7F1D08;
+    font-family: Times, serif;
+}
+p::first-line {
+    text-indent: 30px;
+}
+p::first-letter {
+    font-weight: bold;
+    font-size: large;
+}
+main a{
+    background-color: lightgrey;
+    border: 3px solid #7F1D08;
 }

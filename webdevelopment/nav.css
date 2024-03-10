@@ -6,6 +6,7 @@ nav ul {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    font-family: Georgia, serif;
 }
 nav ul li {
     border: 3px solid darkred;
@@ -18,8 +19,8 @@ nav ul li {
 nav ul li ul {
     display: none;
     position: absolute;
+    left: 0;
     top: 100%;
-    left: auto;
 }
 nav ul li:hover > ul {
     display: flex;
