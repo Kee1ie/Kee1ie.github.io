@@ -17,20 +17,15 @@ nav ul li {
     text-align: center;
     position: relative;
 }
-nav ul li a {
-    background-color: rgba(181, 176, 176, 1);
-}
 nav ul li ul {
     display: none;
     position: absolute;
     margin-left: 0;
     padding-left: 0;
+    left: 0;
     top: 60px;
 }
-nav ul li ul li a {
-    background-color: rgba(181, 176, 176, 1);
-}
-nav ul li:hover > ul {
+nav ul li:hover ul {
     display: block;
 }
 nav > ul::after {
