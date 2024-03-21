@@ -7,7 +7,6 @@ h4 {
     color:#910e0e
 }
 p {
-    width:70%;
     padding: 20px;
     margin: 0;
     color:#7F1D08;
@@ -26,4 +25,36 @@ p::first-letter {
 main a{
     background-color: lightgrey;
     border: 3px solid #7F1D08;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 3fr 1fr 1fr;
+    gap: 1em 1em;
+    grid-template-areas:
+        "cell1 cell2"
+        "cell3 cell3"
+        "cell4 cell4"
+}
+.cell1 {
+    grid-area: cell1;
+    width: 80%;
+    height: auto;
+    padding-left: 15px;
+    padding-top: 20px;
+}
+.cell2 {
+    grid-area: cell2;
+    padding-left: 15px;
+    padding-top: 20px;
+}
+.cell3 {
+    grid-area: cell3;
+    justify-self: center;
+    padding-left: 15px;
+}
+.cell4 {
+    grid-area: cell4;
+    justify-self: left;
+    padding-left: 15px;
 }
