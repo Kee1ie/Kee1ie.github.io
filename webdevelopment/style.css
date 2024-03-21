@@ -30,41 +30,39 @@ img {
     width: 400px;
     height: auto;
 }
-@media screen and (min-width: 760px){
-    .grid {
-        display: grid;
-        grid-template-columns: 1fr 2fr;
-        grid-template-rows: 5fr 1fr 1fr;
-        gap: 1em;
-        grid-template-areas:
-            "cell1 cell2"
-            "cell3 cell3"
-            "cell4 cell4";
-    }
-    .cell1 {
-        grid-area: cell1;
-        width: 90%;
-        height: auto;
-        padding-left: 15px;
-        padding-top: 20px;
-    }
-    .cell2 {
-        grid-area: cell2;
-        padding-left: 15px;
-        padding-top: 20px;
-    }
-    .cell3 {
-        grid-area: cell3;
-        justify-self: center;
-        padding-left: 15px;
-    }
-    .cell4 {
-        grid-area: cell4;
-        justify-self: left;
-        padding-left: 15px;
-    }
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 5fr 1fr 1fr;
+    gap: 1em;
+    grid-template-areas:
+        "cell1 cell2"
+        "cell3 cell3"
+        "cell4 cell4";
 }
-@media screen and (max-width: 759px){
+.cell1 {
+    grid-area: cell1;
+    width: 90%;
+    height: auto;
+    padding-left: 15px;
+    padding-top: 20px;
+}
+.cell2 {
+    grid-area: cell2;
+    padding-left: 15px;
+    padding-top: 20px;
+}
+.cell3 {
+    grid-area: cell3;
+    justify-self: center;
+    padding-left: 15px;
+}
+.cell4 {
+    grid-area: cell4;
+    justify-self: left;
+    padding-left: 15px;
+}
+@media screen and (max-width: 640px){
     .grid{
         display: grid;
         gap: 1em;

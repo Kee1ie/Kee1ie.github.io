@@ -1,3 +1,6 @@
+#hamburger {
+    display:none;
+}
 nav ul {
     list-style-type: none;
     margin: 0;
@@ -32,4 +35,27 @@ nav > ul::after {
     content: "";
     display: block;
     clear: both;
+}
+
+@media only screen and (max-width: 640px) {
+    #hamburger {
+        display: inline-block;
+        padding-left: 20px;
+        width: 20px;
+    }
+    nav ul, nav:active ul {
+        display: none;
+        position: absolute;
+        padding: 20px 20px 20px 0px;
+        top: 20px;
+    }
+    nav:hover ul{
+        display: block;
+    }
+    nav:hover #mobileHide {
+        display: none;
+    }
+    nav ul li ul {       
+        display: none; 
+    }
 }
