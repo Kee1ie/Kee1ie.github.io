@@ -38,7 +38,7 @@ main a{
 }
 .cell1 {
     grid-area: cell1;
-    width: 80%;
+    width: 300px;
     height: auto;
     padding-left: 15px;
     padding-top: 20px;
