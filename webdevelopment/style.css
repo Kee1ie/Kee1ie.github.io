@@ -22,14 +22,18 @@ p::first-letter {
     font-weight: bold;
     font-size: large;
 }
-main a{
+main a {
     background-color: lightgrey;
     border: 3px solid #7F1D08;
+}
+img {
+    width: 400px;
+    height: auto;
 }
 .grid {
     display: grid;
     grid-template-columns: 1fr 2fr;
-    grid-template-rows: 3fr 1fr 1fr;
+    grid-template-rows: 5fr 1fr 1fr;
     gap: 1em 1em;
     grid-template-areas:
         "cell1 cell2"
@@ -38,7 +42,7 @@ main a{
 }
 .cell1 {
     grid-area: cell1;
-    width: 300px;
+    width: 90%;
     height: auto;
     padding-left: 15px;
     padding-top: 20px;
