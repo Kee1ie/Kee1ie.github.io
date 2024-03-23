@@ -10,12 +10,10 @@ nav ul {
     float: left;
     color: white;
     text-align: center;
-    padding: 20px 0 20px 0;
 }
 nav ul li {
     float: left;
     list-style: none;
-    padding-right: 0 25px 0 25px;
     position: relative;
 }
 nav ul li a {
@@ -24,7 +22,6 @@ nav ul li a {
     color: white;
     font-family: Georgia, serif;
     font-size: 15px;
-    padding: 25px 15px;
 }
 nav ul li a:hover {
     color: #c1c1c1;
@@ -36,9 +33,6 @@ nav ul li ul {
 }
 nav ul li:hover ul {
     display: block;
-}
-nav ul li ul li a {
-    padding: 12px 15px;
 }
 nav ul li ul li a:hover {
     color: #c1c1c1;
