@@ -1,14 +1,11 @@
-#hamburger {
-    display:none;
-}
 nav {
     width: 100%;
-    height: 60px;
+    height: 100%;
+    margin: 0;
     background-color: darkred;
 }
-nav ul {
-    list-style-type: none;
-    margin: 0;
+.menu {
+    margin: 0 auto;
     padding: 0;
     display: flex;
     flex-direction: row;
@@ -16,20 +13,21 @@ nav ul {
     align-items: center;
     font-family: Georgia, serif;
 }
-nav ul li {
-    float: left;
+.menu li {
+    list-style-type: none;
     width: 125px;
     padding: 15px 15px 15px 20px;
     margin: 0px 20px 25px;
     text-align: center;
     position: relative;
 }
-nav ul li ul {
+.menu li ul{
     display: none;
     position: absolute;
     background-color: darkred;
+    left:0;
 }
-nav ul li:hover ul {
+.menu li:hover ul {
     display: block;
 }
 nav > ul::after {
@@ -37,43 +35,53 @@ nav > ul::after {
     display: block;
     clear: both;
 }
-nav ul li a {
+.menu li a {
     display: block;
     text-decoration: none;
     color: white;
     font-family: Georgia, serif;
     font-size: 15px;
 }
-nav ul li a:hover {
+.menu li ul li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+.menu li a:hover {
     color: #c1c1c1;
 }
-nav ul li ul li a:hover {
+.menu li ul li a:hover {
     color: #c1c1c1;
+}
+label {
+    display:none;
+    font-size: 20px;
+    width: 25px;
+}
+#toggle {
+    display: none;
 }
 
 @media only screen and (max-width: 640px) {
-    #hamburger {
-        display: inline-block;
+    label {
+        display: block;
         padding-left: 20px;
         width: 20px;
     }
-    nav ul, nav:active ul {
+    .menu {
+        text-align: center;
+        width: 100%;
         display: none;
-        position: absolute;
-        padding: 20px 20px 20px 0px;
-        top: 20px;
     }
-    nav:hover ul{
+    .menu a {
         display: block;
+        margin: 0;
     }
-    nav:hover #mobileHide {
-        display: none;
-    }
-    nav>ul li {    
-        text-align: center;     
-        float: left;
-    }
-    nav ul li ul {       
-        display: none; 
+    #toggle:checked + .menu {
+        display: block;
+    } 
+    .menu li ul {
+        width: 100%;
+        z-index: 1;
     }
 }
