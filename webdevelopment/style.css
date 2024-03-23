@@ -131,3 +131,111 @@ img {
         padding: 10px;
     }
 }
+.gridC {
+    display: grid;
+    gap: 1em;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+        "cell1C cell2C"
+        "cell4C cell3C"
+        "cell5C cell6C"
+        "cell8C cell7C"
+}
+.cell1C {
+    grid-area: cell1C;
+    justify-self: center;
+    padding: 20px;
+}
+.cell2C {
+    grid-area: cell2C;
+    justify-self: center;
+    padding: 20px;
+}
+.cell3C {
+    grid-area: cell3C;
+    justify-self: center;
+    padding: 20px;
+}
+.cell4C {
+    grid-area: cell4C;
+    justify-self: center;
+    padding: 20px;
+}
+.cell5C {
+    grid-area: cell5C;
+    justify-self: center;
+    padding: 20px;
+}
+.cell6C {
+    grid-area: cell6C;
+    justify-self: center;
+    padding: 20px;
+}
+.cell7C {
+    grid-area: cell7C;
+    justify-self: center;
+    padding: 20px;
+}
+.cell8C {
+    grid-area: cell8C;
+    justify-self: center;
+    padding: 20px;
+}
+@media screen and (max-width: 640px) {
+    .gridC {
+        display: grid;
+        gap: 1em;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(8,1fr);
+        grid-template-areas:
+            "cell1C"
+            "cell2C"
+            "cell3C"
+            "cell4C"
+            "cell5C"
+            "cell6C"
+            "cell7C"
+            "cell8C"
+    }
+    .cell1C {
+        grid-area: cell1C;
+        justify-self: center;
+        padding: 10px;
+    }
+    .cell2C {
+        grid-area: cell2C;
+        justify-self: center;
+        padding: 10px;
+    }
+    .cell3C {
+        grid-area: cell3C;
+        justify-self: center;
+        padding: 10px;
+    }
+    .cell4C {
+        grid-area: cell4C;
+        justify-self: center;
+        padding: 10px;
+    }
+    .cell5C {
+        grid-area: cell5C;
+        justify-self: center;
+        padding: 10px;
+    }
+    .cell6C {
+        grid-area: cell6C;
+        justify-self: center;
+        padding: 10px;
+    }
+    .cell7C {
+        grid-area: cell7C;
+        justify-self: center;
+        padding: 10px;
+    }
+    .cell8C {
+        grid-area: cell8C;
+        justify-self: center;
+        padding: 10px;
+    }
+}
