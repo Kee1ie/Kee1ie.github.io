@@ -7,14 +7,35 @@ nav {
     background-color: darkred;
 }
 nav ul {
-    float: left;
-    color: white;
-    text-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Georgia, serif;
 }
 nav ul li {
     float: left;
-    list-style: none;
+    width: 125px;
+    padding: 15px 15px 15px 20px;
+    margin: 0px 20px 25px;
+    text-align: center;
     position: relative;
+}
+nav ul li ul {
+    display: none;
+    position: absolute;
+    background-color: darkred;
+}
+nav ul li:hover ul {
+    display: block;
+}
+nav > ul::after {
+    content: "";
+    display: block;
+    clear: both;
 }
 nav ul li a {
     display: block;
@@ -25,14 +46,6 @@ nav ul li a {
 }
 nav ul li a:hover {
     color: #c1c1c1;
-}
-nav ul li ul {
-    display: none;
-    position: absolute;
-    background-color: darkred;
-}
-nav ul li:hover ul {
-    display: block;
 }
 nav ul li ul li a:hover {
     color: #c1c1c1;
