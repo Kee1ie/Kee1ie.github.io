@@ -1,32 +1,43 @@
 #hamburger {
     display:none;
 }
-nav ul {
-    list-style-type: none;
+nav {
+    overflow: hidden;
     margin: 0;
     padding: 0;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    font-family: Georgia, serif;
+    width: 100%;
+    height: 60px;
+}
+nav ul {
+    float: left;
+    background-color: darkred;
+    color: white;
+    list-style-type: none;
+    text-align: center;
+    padding: 20px 0 20px 0;
 }
 nav ul li {
     float: left;
-    border: 3px solid darkred;
-    width: 125px;
-    padding: 15px 15px 15px 20px;
-    margin: 0px 20px 25px;
-    text-align: center;
+    padding-right: 0 25px 0 25px;
     position: relative;
+}
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-family: Georgia, serif;
+    font-size: 15px;
+}
+nav ul li a:hover {
+    color: #c1c1c1;
 }
 nav ul li ul {
     display: none;
     position: absolute;
-    margin-left: 0;
-    padding-left: 0;
-    left: 0;
-    top: 60px;
+    background-color: darkred;
+}
+nav ul li ul li a {
+    padding: 8px 15px;
 }
 nav ul li:hover ul {
     display: block;
@@ -35,6 +46,9 @@ nav > ul::after {
     content: "";
     display: block;
     clear: both;
+}
+nav ul li ul li a:hover {
+    color: #c1c1c1;
 }
 
 @media only screen and (max-width: 640px) {
@@ -54,6 +68,10 @@ nav > ul::after {
     }
     nav:hover #mobileHide {
         display: none;
+    }
+    nav>ul li {    
+        text-align: center;     
+        float: left;
     }
     nav ul li ul {       
         display: none; 

@@ -30,7 +30,7 @@ img {
     width: 400px;
     height: auto;
 }
-.grid {
+.gridA {
     display: grid;
     grid-template-columns: 1fr 2fr;
     grid-template-rows: 5fr 1fr 1fr;
@@ -40,24 +40,24 @@ img {
         "cell3 cell3"
         "cell4 cell4";
 }
-.cell1 {
+.cell1A {
     grid-area: cell1;
     width: 90%;
     height: auto;
     padding-left: 15px;
     padding-top: 20px;
 }
-.cell2 {
+.cell2A {
     grid-area: cell2;
     padding-left: 15px;
     padding-top: 20px;
 }
-.cell3 {
+.cell3A {
     grid-area: cell3;
     justify-self: center;
     padding-left: 15px;
 }
-.cell4 {
+.cell4A {
     grid-area: cell4;
     justify-self: left;
     padding-left: 15px;
