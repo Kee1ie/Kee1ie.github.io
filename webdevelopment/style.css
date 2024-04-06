@@ -283,22 +283,18 @@ img {
     }
     .cell1A {
         grid-area: cell1A;
-        padding-left: 10px;
-        width: 300px;
+        width: 150px;
         height: auto;
         justify-self: center;
     }
     .cell2A {
         grid-area: cell2A;
-        padding-left: 10px;
     }
     .cell3A {
         grid-area: cell3A;
         justify-self: center;
-        padding-left: 10px;
     }
     .cell4A {
         grid-area: cell4A;
-        padding-left: 10px;
     }
 }
