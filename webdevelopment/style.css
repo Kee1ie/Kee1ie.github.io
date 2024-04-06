@@ -254,6 +254,9 @@ img {
         text-shadow: none !important;
         font-family: 'Times New Roman', Times, serif;
     }
+    header {
+        text-align: center;
+    }
     nav {
         display: none;
     }
@@ -263,8 +266,39 @@ img {
     p {
         font-size: 12pt;
     }
-    a[href^="http:"]::after {
+
+    a[href]::after {
         content: " ["attr(href)"]";
     }
-
+    .gridA{
+        display: grid;
+        gap: 1em;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-template-areas:
+            "cell1A"
+            "cell2A"
+            "cell3A"
+            "cell4A";
+    }
+    .cell1A {
+        grid-area: cell1A;
+        padding-left: 10px;
+        width: 300px;
+        height: auto;
+        justify-self: center;
+    }
+    .cell2A {
+        grid-area: cell2A;
+        padding-left: 10px;
+    }
+    .cell3A {
+        grid-area: cell3A;
+        justify-self: center;
+        padding-left: 10px;
+    }
+    .cell4A {
+        grid-area: cell4A;
+        padding-left: 10px;
+    }
 }
