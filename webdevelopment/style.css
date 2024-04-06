@@ -282,8 +282,8 @@ img {
     }
     .cell1A {
         grid-area: cell1A;
-        width: 150px;
-        height: auto;
+        height: 50%;
+        width: auto;
         justify-self: center;
     }
     .cell2A {
