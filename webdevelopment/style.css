@@ -1,10 +1,17 @@
+@font-face {
+    font-family: Raleway;
+    src: url("Raleway-ExtraLightItalic.ttf");
+}
 h1 {
     font-family: Georgia, serif;
     color:#910e0e;
 }
 h4 {
     font-family: Georgia, serif;
-    color:#910e0e
+    color:#910e0e;
+}
+blockquote {
+    font-family: Raleway, serif;
 }
 p {
     padding: 20px;
@@ -237,5 +244,14 @@ img {
         grid-area: cell8C;
         justify-self: center;
         padding: 10px;
+    }
+}
+@media print {
+    * {
+        color: black !important;
+        background: transparent !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+        margin: 1in;
     }
 }
