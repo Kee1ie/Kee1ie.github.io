@@ -252,6 +252,19 @@ img {
         background: transparent !important;
         box-shadow: none !important;
         text-shadow: none !important;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    nav {
+        display: none;
+    }
+    body {
         margin: 1in;
     }
+    p {
+        font-size: 12pt;
+    }
+    a[href^="http:"]::after {
+        content: " ["attr(href)"]";
+    }
+
 }
