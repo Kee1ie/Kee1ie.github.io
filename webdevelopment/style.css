@@ -267,7 +267,7 @@ img {
         font-size: 11pt;
     }
     img {
-        height: 50px !important;
+        height: 150px !important;
         width: auto !important;
     }
     a[href]::after {
