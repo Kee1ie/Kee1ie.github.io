@@ -264,17 +264,18 @@ img {
         margin: 1in;
     }
     p {
-        font-size: 12pt;
+        font-size: 11pt;
     }
     img {
-        height: 50px;
-        width: auto;
+        height: 50px !important;
+        width: auto !important;
     }
     a[href]::after {
         content: " ["attr(href)"]";
     }
     .gridA{
         display: grid;
+        gap: 0.5em;
         grid-template-columns: 1fr;
         grid-template-rows: auto;
         grid-template-areas:
