@@ -266,7 +266,10 @@ img {
     p {
         font-size: 12pt;
     }
-
+    img {
+        height: 50px;
+        width: auto;
+    }
     a[href]::after {
         content: " ["attr(href)"]";
     }
@@ -282,8 +285,6 @@ img {
     }
     .cell1A {
         grid-area: cell1A;
-        height: 50%;
-        width: auto;
         justify-self: center;
     }
     .cell2A {
