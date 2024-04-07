@@ -35,7 +35,11 @@ main a {
 }
 .icon {
     height: 1.5em;
-    width: auto;
+    width: 1.5em;
+    margin: 0 auto;
+}
+.icon:hover {
+    transform: scale(1.25);
 }
 footer {
     background-image: url(footer-background.jpg);
