@@ -29,7 +29,7 @@ main a {
     background-color: lightgrey;
     border: 3px solid #7F1D08;
 }
-img {
+.pic {
     width: 400px;
     height: auto;
 }
