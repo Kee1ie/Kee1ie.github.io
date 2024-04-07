@@ -33,6 +33,14 @@ main a {
     width: 400px;
     height: auto;
 }
+.icon {
+    height: 1.5em;
+    width: auto;
+}
+footer {
+    background-image: url(footer-background.jpg);
+    background-size: cover;
+}
 .gridA {
     display: grid;
     grid-template-columns: 1fr 2fr;
