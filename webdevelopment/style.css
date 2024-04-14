@@ -254,6 +254,91 @@ footer {
         padding: 10px;
     }
 }
+.gridD {
+    display: grid;
+    gap: 1em;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:
+        "cell1D cell2D"
+        "cell4D cell3D"
+        "cell5D cell6D"
+}
+.cell1D {
+    grid-area: cell1D;
+    justify-self: center;
+    padding: 20px;
+}
+.cell2D {
+    grid-area: cell2D;
+    justify-self: center;
+    padding: 20px;
+}
+.cell3D {
+    grid-area: cell3D;
+    justify-self: center;
+    padding: 20px;
+}
+.cell4D {
+    grid-area: cell4D;
+    justify-self: center;
+    padding: 20px;
+}
+.cell5D {
+    grid-area: cell5D;
+    justify-self: center;
+    padding: 20px;
+}
+.cell6D {
+    grid-area: cell6D;
+    justify-self: center;
+    padding: 20px;
+}
+@media screen and (max-width: 640px) {
+    .gridD {
+        display: grid;
+        gap: 1em;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6,1fr);
+        grid-template-areas:
+            "cell1D"
+            "cell2D"
+            "cell3D"
+            "cell4D"
+            "cell5D"
+            "cell6D"
+    }
+    .cell1D {
+        grid-area: cell1D;
+        justify-self: center;
+        padding: 10px;
+    }
+    .cell2D {
+        grid-area: cell2D;
+        justify-self: center;
+        padding: 10px;
+    }
+    .cell3D {
+        grid-area: cell3D;
+        justify-self: center;
+        padding: 10px;
+    }
+    .cell4D {
+        grid-area: cell4D;
+        justify-self: center;
+        padding: 10px;
+    }
+    .cell5D {
+        grid-area: cell5D;
+        justify-self: center;
+        padding: 10px;
+    }
+    .cell6D {
+        grid-area: cell6D;
+        justify-self: center;
+        padding: 10px;
+    }
+}
 @media print {
     * {
         color: black !important;
