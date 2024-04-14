@@ -272,7 +272,7 @@ footer {
 .cell2D {
     grid-area: cell2D;
     justify-self: center;
-    padding: 20px;
+    padding: 80px 20px;
 }
 .cell3D {
     grid-area: cell3D;
@@ -282,7 +282,7 @@ footer {
 .cell4D {
     grid-area: cell4D;
     justify-self: center;
-    padding: 20px;
+    padding: 80px 20px;
 }
 .cell5D {
     grid-area: cell5D;
@@ -292,7 +292,7 @@ footer {
 .cell6D {
     grid-area: cell6D;
     justify-self: center;
-    padding: 20px;
+    padding: 80px 20px;
 }
 @media screen and (max-width: 640px) {
     .gridD {
