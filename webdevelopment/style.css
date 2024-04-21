@@ -59,9 +59,24 @@ thead:nth-child(odd) {
 tbody:nth-child(even) {
     background-color:lightgrey;
 }
+form {
+    display: flex;
+    flex-direction: column;
+    width: 24rem;
+    gap: 1rem
+}
+input, select, textarea {
+    padding: 1.4rem;
+    background: transparent;
+    border: 1px solid black;
+}
+textarea {
+    height: 6rem;
+}
 label {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    display: block;
+    font-size: 16px;
+    color:black;
 }
 footer {
     background-image: url(footer-background.jpg);
