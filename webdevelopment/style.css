@@ -53,10 +53,10 @@ table, th, td {
 th, td {
     padding: 10px;
 }
-tr:nth-child(even) {
-    background-color:white;
+thead:nth-child(odd) {
+    background-color:lightgrey;
 }
-tr:nth-child(odd) {
+tbody:nth-child(even) {
     background-color:lightgrey;
 }
 footer {
