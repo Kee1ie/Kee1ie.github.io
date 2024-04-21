@@ -53,11 +53,6 @@ nav > ul::after {
 .menu li ul li a:hover {
     color: #c1c1c1;
 }
-label {
-    display:none;
-    font-size: 20px;
-    width: 25px;
-}
 #toggle {
     display: none;
 }
