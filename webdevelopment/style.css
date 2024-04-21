@@ -59,7 +59,8 @@ thead:nth-child(odd) {
 tbody:nth-child(even) {
     background-color:lightgrey;
 }
-form {
+label {
+    font-family: Georgia, 'Times New Roman', Times, serif;
     display: block;
 }
 footer {
