@@ -41,6 +41,24 @@ main a {
 .icon:hover {
     transform: scale(1.25);
 }
+table {
+    width: 400px;
+}
+th, caption {
+    text-align: left;
+}
+table, th, td {
+    border: 1px solid black
+}
+th, td {
+    padding: 10px;
+}
+tr:nth-child(even) {
+    background-color:white;
+}
+tr:nth-child(odd) {
+    background-color:lightgrey;
+}
 footer {
     background-image: url(footer-background.jpg);
     background-size: cover;
@@ -106,6 +124,9 @@ footer {
     .cell4A {
         grid-area: cell4A;
         padding-left: 10px;
+    }
+    table {
+        overflow: scroll;
     }
 }
 .gridB {
