@@ -59,6 +59,9 @@ thead:nth-child(odd) {
 tbody:nth-child(even) {
     background-color:lightgrey;
 }
+form {
+    display: block;
+}
 footer {
     background-image: url(footer-background.jpg);
     background-size: cover;

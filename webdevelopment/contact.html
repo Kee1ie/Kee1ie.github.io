@@ -13,7 +13,7 @@ Tested: 2/10/2024
 -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
-    <title>About Me</title>
+    <title>Contact</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="nav.css">
 </head>
@@ -35,15 +35,18 @@ Tested: 2/10/2024
             <li><a href="contact.html">Contact</a></li>
         </ul>
     </nav>
+    <header>
+        <h1>Contact Me</h1>
+    </header>
     <form action="mailto:rckp3b@umsystem.edu?Subject=Professional%20Website%20Contact" method="post" enctype="text/plain">
         <label for="fname">First Name:</label><br>
-        <input type="text" id="fname" name="fname"><br>
+        <input type="text" id="fname" name="fname" required><br>
         <label for="lname">Last Name:</label><br>
-        <input type="text" id="lname" name="lname"><br>
+        <input type="text" id="lname" name="lname" required><br>
         <label for="email">Email:</label><br>
-        <input type="text" id="email" name="email"><br>
+        <input type="text" id="email" name="email" required><br>
         <label for="message">Message:</label><br>
-        <textarea id="message" name="message" rows="5" cols="50"></textarea><br>
+        <textarea id="message" name="message" rows="5" cols="50" required></textarea><br>
         <input type="submit" value="Submit">
     </form>
     <footer>
