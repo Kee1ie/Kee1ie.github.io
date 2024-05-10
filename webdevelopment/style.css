@@ -57,15 +57,16 @@ table, th, td {
 th, td {
     padding: 10px;
 }
-thead:nth-child(odd) {
+thead:nth-child(1) {
     background-color:lightgrey;
 }
-tbody:nth-child(even) {
+tbody:nth-child(2) {
     background-color:lightgrey;
 }
 form {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     width: 24rem;
     gap: 1rem
 }
@@ -85,6 +86,13 @@ textarea {
 footer {
     background-image: url(footer-background.jpg);
     background-size: cover;
+}
+.grid2A {
+    display: flex;
+
+}
+.box {
+    flex: 1;
 }
 .gridA {
     display: grid;
