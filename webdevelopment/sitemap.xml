@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://kee1ie.github.io/webdevelopment/index.html</loc>
+  <lastmod>2024-05-10T04:25:19+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://kee1ie.github.io/webdevelopment/about.html</loc>
+  <lastmod>2024-05-10T04:25:19+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://kee1ie.github.io/webdevelopment/project.html</loc>
+  <lastmod>2024-05-10T04:25:19+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://kee1ie.github.io/webdevelopment/reflection.html</loc>
+  <lastmod>2024-05-10T04:25:19+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://kee1ie.github.io/webdevelopment/contact.html</loc>
+  <lastmod>2024-05-10T04:25:19+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://kee1ie.github.io/webdevelopment/Ryan%20Kee%20-%20Resume.pdf</loc>
+  <lastmod>2024-05-10T04:25:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://kee1ie.github.io/webdevelopment/Kee%20Senior%20Recital%20Program%20Notes.pdf</loc>
+  <lastmod>2024-05-10T04:25:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>
